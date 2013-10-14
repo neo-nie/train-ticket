@@ -2,6 +2,8 @@ avalon.ready(function () {
 
 //LoginVM
 avalon.define("login", function (vm) {
+	vm.$title = "用户登录";
+
 	//公共属性
 	vm.User = "user";
 	vm.Password = "password";
@@ -17,7 +19,7 @@ avalon.define("login", function (vm) {
 	*/
 	vm.FetchCaptcha = function(){
 
-	}
+	};
 
 	/**
 	 * 检验校验码
@@ -31,7 +33,7 @@ avalon.define("login", function (vm) {
 	 *使用User和Password属性进行登录，
 	 *成功返回true，失败返回false
 	*/
-	vm.Login = funtion(){
+	vm.Login = function(){
 
 	};
 
@@ -39,7 +41,7 @@ avalon.define("login", function (vm) {
 	 *对用户名密码进行校验
 	 *成功返回true，失败返回false
 	*/
-	vm.Verify = funtion(){
+	vm.Verify = function(){
 
 	};
 

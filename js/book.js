@@ -2,6 +2,7 @@ avalon.ready(function () {
 
 //BookVM
 avalon.define("book", function (vm) {
+	vm.$title = "预定车票"
 
 	/**
 	 * 支付订单

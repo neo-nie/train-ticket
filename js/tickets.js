@@ -2,6 +2,8 @@ avalon.ready(function () {
 
 //TicketsVM
 avalon.define("tickets", function (vm) {
+	vm.$title = "余票信息"
+
 	vm.Tickets = [];
 
 	/**

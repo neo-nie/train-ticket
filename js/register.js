@@ -2,6 +2,8 @@ avalon.ready(function () {
 
 //RegisterVM
 avalon.define("register", function (vm) {
+	vm.$title = "12306用户注册"
+
 	vm.User = "user";
 	vm.Password = "password";
 	vm.Password2 = "password2";

@@ -2,6 +2,8 @@ avalon.ready(function () {
 
 //SearchVM
 avalon.define("search", function (vm) {
+	vm.$title = "余票查询"
+
 	vm.FromCity = "广州";
 	vm.ToCity = "重庆";
 	vm.FromDate = "2013-10-10";
@@ -24,6 +26,23 @@ avalon.define("search", function (vm) {
 	vm.Search = function(){
 
 	}
+
+	/**
+	 * 加载页面时执行
+	*/
+	function init() {
+		var config = getConfig();
+		vm.extend(config);
+	}
+
+	/**
+	 * 从url或hash中获取预定义参数
+	*/
+	function getConfig() {
+		// body...
+	}
+
+	init();
 });
 avalon.scan();
 

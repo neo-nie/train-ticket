@@ -2,6 +2,8 @@ avalon.ready(function () {
 
 //SuggestionVM
 avalon.define("suggestion", function (vm) {
+	vm.$title = "改进建议"
+
 	vm.Content = "改进建议";
 	vm.PhoneNO = "138 8888 8888";
 	
