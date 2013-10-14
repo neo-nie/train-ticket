@@ -8,6 +8,22 @@ avalon.define("register", function (vm) {
 	vm.Captcha = "***";
 
 	/**
+	 * 获取验证码
+	 * 返回验证码图片url
+	*/
+	vm.FetchCaptcha = function(){
+
+	}
+
+	/**
+	 * 检验校验码
+	 * 成功返回true，失败返回false
+	*/
+	vm.VerifyCaptcha = function(){
+
+	};
+
+	/**
 	 * 校验用户名和密码
 	 * 成功返回true，失败返回false
 	*/

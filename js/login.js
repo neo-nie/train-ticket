@@ -10,6 +10,23 @@ avalon.define("login", function (vm) {
 	vm.SavePassword = false;
 
 	//公共方法
+
+	/**
+	 * 获取验证码
+	 * 返回验证码图片url
+	*/
+	vm.FetchCaptcha = function(){
+
+	}
+
+	/**
+	 * 检验校验码
+	 * 成功返回true，失败返回false
+	*/
+	vm.VerifyCaptcha = function(){
+
+	};
+
 	/**
 	 *使用User和Password属性进行登录，
 	 *成功返回true，失败返回false
