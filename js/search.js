@@ -3,6 +3,9 @@ avalon.ready(function () {
 //SearchVM
 avalon.define("search", function (vm) {
 	vm.$title = "余票查询"
+	vm.$back = function(){
+		window.history.back();
+	}
 
 	vm.FromCity = "广州";
 	vm.ToCity = "重庆";
@@ -16,7 +19,7 @@ avalon.define("search", function (vm) {
 	/**
 	 * 校验查询条件
 	*/
-	vm.Verify = funtion(){
+	vm.Verify = function(){
 
 	}
 
@@ -32,7 +35,7 @@ avalon.define("search", function (vm) {
 	*/
 	function init() {
 		var config = getConfig();
-		vm.extend(config);
+		//vm.extend(config);
 	}
 
 	/**
