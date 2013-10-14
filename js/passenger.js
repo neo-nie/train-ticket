@@ -1,5 +1,25 @@
 avalon.ready(function () {
-	avalon.define("passenger", function (vm) {
-	});
-	avalon.scan();
+
+//PassengerVM
+avalon.define("passenger", function (vm) {
+	vm.Passengers = []; //常用旅客列表
+
+	/**
+	 * 增加常用旅客
+	 * 成功返回true，失败返回false
+	*/
+	vm.AddPassenger = function(){
+
+	};
+
+	/**
+	 * 删除指定的常用旅客
+	 * 成功返回true，失败返回false
+	*/
+	vm.DeletePassenger = function(passenger){
+
+	}
+});
+avalon.scan();
+
 });

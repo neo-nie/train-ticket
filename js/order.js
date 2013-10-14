@@ -1,7 +1,8 @@
 avalon.ready(function () {
 
-//UserVM
-avalon.define("user", function (vm) {
+//OrderVM
+avalon.define("order", function (vm) {
+
 });
 avalon.scan();
 

@@ -1,5 +1,8 @@
 avalon.ready(function () {
-	avalon.define("favorite", function (vm) {
-	});
-	avalon.scan();
+
+//FavoriteVM
+avalon.define("favorite", function (vm) {
+});
+avalon.scan();
+
 });

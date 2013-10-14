@@ -1,5 +1,23 @@
 avalon.ready(function () {
-	avalon.define("tickets", function (vm) {
-	});
-	avalon.scan();
+
+//TicketsVM
+avalon.define("tickets", function (vm) {
+	vm.Tickets = [];
+
+	/**
+	 * 进入抢票页面
+	*/
+	vm.GrabTicket = function(ticket){
+
+	}
+
+	/**
+	 * 进入预定页面
+	*/
+	vm.BookTicket = function(ticket){
+
+	}
+});
+avalon.scan();
+
 });
