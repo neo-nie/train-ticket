@@ -8,7 +8,7 @@
 	<script src="../js/avalon.mobile.js"></script>
 </head>
 <body ms-controller="search">
-	<header><button ms-click="$back">后退</button><span ms-text="$title"></header>
+	<header><button class="BtnBack" ms-click="$back">后退</button><span ms-text="$title"></header>
 	<div class="content">
 		<div class="city-picker">
 			<div style="display: inline-block; width: 100%;">
@@ -18,7 +18,7 @@
 			</div>
 			<div class="city-hot">
 				<ul class="city-hot hot-from" ms-each-city="CandidateCities">
-	                <li class="city-item" ms-click=""><a>{{city}}</a></li>
+	                <li class="city-item" ms-click="SelectFromCity(city)"><a>{{city}}</a></li>
 	            </ul>
             </div>
 		</div>

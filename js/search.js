@@ -31,10 +31,14 @@ avalon.define("search", function (vm) {
      * 交换城市起点与终点
     */
     vm.ExchangeCity = function (e) {
-            var tmp = vm.FromCity;
-            vm.FromCity = vm.ToCity;
-            vm.ToCity = tmp;
-        };
+        var tmp = vm.FromCity;
+        vm.FromCity = vm.ToCity;
+        vm.ToCity = tmp;
+    };
+
+    vm.SelectFromCity = function(city){
+    	vm.FromCity = city;
+    }
 
 	/**
 	 * 校验查询条件
