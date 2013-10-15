@@ -4,11 +4,40 @@
 	<meta charset="UTF-8">
 	<title>车票查询</title>
 	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/search.css">
 	<script src="../js/avalon.mobile.js"></script>
 </head>
 <body ms-controller="search">
 	<header><button ms-click="$back">后退</button><span ms-text="$title"></header>
-	<div class="content"></div>
+	<div class="content">
+		<div class="city-picker">
+			<div style="display: inline-block; width: 100%;">
+				<div class="city-from"><input type="text" class="city-input" ms-duplex="FromCity"></div>
+				<div class="city-ex"><a ms-click="ExchangeCity">交换</a></div>
+				<div class="city-to"><input type="text" class="city-input" ms-duplex="ToCity"></div>
+			</div>
+			<div class="city-hot">
+				<ul class="city-hot hot-from" ms-each-city="CandidateCities">
+	                <li class="city-item" ms-click=""><a>{{city}}</a></li>
+	            </ul>
+            </div>
+		</div>
+		<div class="date-picker">
+			<a href=""></a>
+			<div class="calendar"></div>
+		</div>
+		<div id="type-picker">
+	        <input id="ticketTypeD" type="checkbox" ms-checked="IsDongChe"><span
+	            onclick="document.getElementById('ticketTypeD').click();">动车</span></input>
+	        <input id="ticketTypeZ" type="checkbox" ms-checked="IsZhiDa"><span
+	            onclick="document.getElementById('ticketTypeZ').click();">Z字头</span></input>
+	        <input id="ticketTypeT" type="checkbox" ms-checked="IsTeKuai"><span
+	            onclick="document.getElementById('ticketTypeT').click();">T字头</span></input>
+	        <input id="ticketTypeK" type="checkbox" ms-checked="IsKuaiChe"><span
+	            onclick="document.getElementById('ticketTypeK').click();">K字头</span></input>
+	    </div>
+	    <button ms-click="Search">查询余票</button>
+	</div>
 	<footer></footer>
 	<script src="../js/search.js"></script>
 </body>
