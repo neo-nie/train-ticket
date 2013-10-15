@@ -17,13 +17,14 @@ div {
     box-sizing: border-box;
 }
 
-header{
-	background: -webkit-gradient(linear, left top, left bottom, from(#2786d7), to(#055796));
-	background-size: 100% 100%;
+header {
+	height: 45px;
+	background-color: #4595df;
 	text-align: center;
-	font-size: 20px;
-	color: #fff;
-	text-shadow: 0 1px 1px rgba(0, 0, 0, .6);
+	color: #FFF;
+	position: relative;
+	line-height: 45px;
+	-webkit-user-select: none;
 }
 
 .content{
@@ -36,4 +37,14 @@ footer{
 
 .BtnBack{
 	float: left;
+	height: 
+}
+
+h1 {
+	font-size: 20px;
+}
+h1, h2, h3, h4, h5, h6, p, td {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
 }

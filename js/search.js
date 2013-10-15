@@ -7,14 +7,14 @@ avalon.define("search", function (vm) {
 		window.history.back();
 	}
 
-	vm.FromCity = "广州";
-	vm.ToCity = "重庆";
-	vm.FromDate = "2013-10-10";
+	vm.FromCity  = { Id: 10, Name: "广州" };
+	vm.ToCity    = { Id: 11, Name: "重庆" };
+	vm.FromDate  = "2013-10-10";
 	vm.IsKuaiChe = false;
-	vm.IsTeKuai = true;
-	vm.IsZhiDa = true;
+	vm.IsTeKuai  = true;
+	vm.IsZhiDa   = true;
 	vm.IsDongChe = true;
-	vm.IsGaoTie = true;
+	vm.IsGaoTie  = true;
 
 	//候选城市列表，默认显示热门城市。
 	//如果在城市输入框中输入了关键字，则显示过滤后的结果
@@ -31,9 +31,9 @@ avalon.define("search", function (vm) {
      * 交换城市起点与终点
     */
     vm.ExchangeCity = function (e) {
-        var tmp = vm.FromCity;
-        vm.FromCity = vm.ToCity;
-        vm.ToCity = tmp;
+		var tmp     = vm.FromCity;
+		vm.FromCity = vm.ToCity;
+		vm.ToCity   = tmp;
     };
 
     vm.SelectFromCity = function(city){
@@ -63,10 +63,24 @@ avalon.define("search", function (vm) {
 	}
 
 	/**
-	 * 从url或hash中获取预定义参数
+	 * 获取页面上下文信息，即预定义参数。两种方式：
+	 * 1、从url或hash中获取
+	 * 2、通过LocalStorage获取
 	*/
 	function getConfig() {
-		// body...
+		var config = {};
+
+		var vars = window.location.search.substring(1).split('&');
+	    for (var i = 0; i < vars.length; i++) {
+	        var pair = vars[i].split('=');
+	        if (pair.length == 2){
+				var key     = decodeURIComponent(pair[0]);
+				var value   = decodeURIComponent(pair[1]);				
+				config[key] = value;
+	        }
+	    }
+
+	    return config;
 	}
 
 	init();
