@@ -1,15 +1,15 @@
 avalon.ready(function () {
 
 //SearchVM
-avalon.define("search", function (vm) {
-	vm.$title = "余票查询"
+avalon.define('search', function (vm) {
+	vm.$title = '余票查询'
 	vm.$back = function(){
 		window.history.back();
 	}
 
-	vm.FromCity  = { Id: 10, Name: "广州" };
-	vm.ToCity    = { Id: 11, Name: "重庆" };
-	vm.FromDate  = "2013-10-10";
+	vm.FromCity  = { Id: 10, Name: '广州' };
+	vm.ToCity    = { Id: 11, Name: '重庆' };
+	vm.FromDate  = '2013-10-10';
 	vm.IsKuaiChe = false;
 	vm.IsTeKuai  = true;
 	vm.IsZhiDa   = true;
@@ -19,12 +19,12 @@ avalon.define("search", function (vm) {
 	//候选城市列表，默认显示热门城市。
 	//如果在城市输入框中输入了关键字，则显示过滤后的结果
 	vm.CandidateCities = [
-        "上海", "北京", "广州", "昆明",
-        "西安", "成都", "深圳", "厦门",
-        "南京", "重庆", "杭州", "大连",
-        "长沙", "海口", "青岛", "沈阳",
-        "三亚", "济南", "武汉", "郑州",
-        "贵阳", "南宁", "福州", "天津",
+        '上海', '北京', '广州', '昆明',
+        '西安', '成都', '深圳', '厦门',
+        '南京', '重庆', '杭州', '大连',
+        '长沙', '海口', '青岛', '沈阳',
+        '三亚', '济南', '武汉', '郑州',
+        '贵阳', '南宁', '福州', '天津',
     ];
 
     /**
@@ -36,14 +36,14 @@ avalon.define("search", function (vm) {
 		vm.ToCity   = tmp;
     };
 
-    vm.SelectFromCity = function(city){
+    vm.SelectFromCity = function (city) {
     	vm.FromCity = city;
     }
 
 	/**
 	 * 校验查询条件
 	*/
-	vm.Verify = function(){
+	vm.Verify = function () {
 
 	}
 
@@ -58,29 +58,8 @@ avalon.define("search", function (vm) {
 	 * 加载页面时执行
 	*/
 	function init() {
-		var config = getConfig();
+		var config = router.getConfig(window.location);
 		//vm.extend(config);
-	}
-
-	/**
-	 * 获取页面上下文信息，即预定义参数。两种方式：
-	 * 1、从url或hash中获取
-	 * 2、通过LocalStorage获取
-	*/
-	function getConfig() {
-		var config = {};
-
-		var vars = window.location.search.substring(1).split('&');
-	    for (var i = 0; i < vars.length; i++) {
-	        var pair = vars[i].split('=');
-	        if (pair.length == 2){
-				var key     = decodeURIComponent(pair[0]);
-				var value   = decodeURIComponent(pair[1]);				
-				config[key] = value;
-	        }
-	    }
-
-	    return config;
 	}
 
 	init();
