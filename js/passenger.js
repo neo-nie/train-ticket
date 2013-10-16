@@ -1,8 +1,8 @@
 avalon.ready(function () {
 
 //PassengerVM
-avalon.define("passenger", function (vm) {
-	vm.$title = "常用旅客"
+avalon.define('passenger', function (vm) {
+	vm.$title = '常用旅客';
 	vm.Passengers = []; //常用旅客列表
 
 	/**

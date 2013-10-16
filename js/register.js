@@ -1,13 +1,13 @@
 avalon.ready(function () {
 
 //RegisterVM
-avalon.define("register", function (vm) {
-	vm.$title = "12306用户注册"
+avalon.define('register', function (vm) {
+	vm.$title = '12306用户注册';
 
-	vm.User = "user";
-	vm.Password = "password";
-	vm.Password2 = "password2";
-	vm.Captcha = "***";
+	vm.User = 'user';
+	vm.Password = 'password';
+	vm.Password2 = 'password2';
+	vm.Captcha = '***';
 
 	/**
 	 * 获取验证码

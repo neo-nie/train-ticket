@@ -1,16 +1,16 @@
 avalon.ready(function () {
 
 //LoginVM
-avalon.define("login", function (vm) {
-	vm.$title = "用户登录";
+avalon.define('login', function (vm) {
+	vm.$title = '用户登录';
 	vm.$back = function(){
 		window.history.back();
 	}
 
 	//公共属性
-	vm.User = "user";
-	vm.Password = "password";
-	vm.Captcha = "***";
+	vm.User = 'user';
+	vm.Password = 'password';
+	vm.Captcha = '***';
 	vm.SaveUser = false;
 	vm.SavePassword = false;
 

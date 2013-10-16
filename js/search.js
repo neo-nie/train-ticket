@@ -2,7 +2,7 @@ avalon.ready(function () {
 
 //SearchVM
 avalon.define('search', function (vm) {
-	vm.$title = '余票查询'
+	vm.$title = '余票查询';
 	vm.$back = function(){
 		window.history.back();
 	}

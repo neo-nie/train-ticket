@@ -1,8 +1,8 @@
 avalon.ready(function () {
 
 //BookVM
-avalon.define("book", function (vm) {
-	vm.$title = "预定车票"
+avalon.define('book', function (vm) {
+	vm.$title = '预定车票'
 
 	/**
 	 * 支付订单
@@ -10,7 +10,6 @@ avalon.define("book", function (vm) {
 	 * 支付成功后跳转到订单页面
 	*/
 	vm.Pay = function(){
-
 	};
 
 	/**
