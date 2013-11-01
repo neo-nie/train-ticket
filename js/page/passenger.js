@@ -9,7 +9,7 @@ avalon.define('passenger', function (vm) {
 	 * 增加常用旅客
 	 * 成功返回true，失败返回false
 	*/
-	vm.AddPassenger = function(){
+	vm.AddPassenger = function () {
 
 	};
 
@@ -17,9 +17,9 @@ avalon.define('passenger', function (vm) {
 	 * 删除指定的常用旅客
 	 * 成功返回true，失败返回false
 	*/
-	vm.DeletePassenger = function(passenger){
+	vm.DeletePassenger = function (passenger) {
 
-	}
+	};
 });
 avalon.scan();
 
