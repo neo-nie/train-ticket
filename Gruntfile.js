@@ -1,7 +1,6 @@
 /**
  * Gruntfile for Elf Project
  */
-
 module.exports = function (grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
@@ -9,7 +8,7 @@ module.exports = function (grunt) {
             banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - ' + '<%= grunt.template.today("yyyy-mm-dd") %> */'
         },
         jshint: {
-            all: ['public/js/*.js'],
+            all: ['src/js/*.js'],
             options: {
                 bitwise: true,
                 camelcase: true,
@@ -40,55 +39,54 @@ module.exports = function (grunt) {
         },
         watch: {
             build: {
-                files: ['public/js/**/*.js', 'public/tpl/*.tpl', 'public/css/*.css'],
+                files: ['src/js/**/*.js', 'src/view/*.html', 'src/css/*.css'],
                 tasks: ['build']
             },
             tpl: {
-                files: ['public/tpl/*.tpl'],
+                files: ['src/view/*.html'],
                 tasks: ['tpl']
             }
         },
         tpl: {
             options: {
-                base: 'public/tpl'
+                base: 'src/view'
             },
             tpl: {
-                src: ['public/tpl/*.tpl'],
-                dest: 'public/js/tpl'
+                src: ['src/view/*.html'],
+                dest: 'src/js/view'
             }
         },
         cmd: {
             options: {
-                base: 'public/js/',
+                base: 'src/js/',
                 shim: {
                     zepto: 'Zepto'
                 }
             },
             all: {
-                src: ['public/js/**/*.js'],
-                dest: 'public/compiled'
+                src: ['src/js/**/*.js'],
+                dest: 'src/compiled'
             }
         },
         copy: {
             main: {
                 expand: true,
-                cwd: 'public/img/',
+                cwd: 'src/img/',
                 src: '**',
-                dest: 'public/dist/img/'
+                dest: 'dist/img/'
             }
         },
         pack: {
             css: {
                 type: 'css',
-                src: ['<%= meta.banner %>', 'public/encss/*.css'
+                src: ['<%= meta.banner %>', 'src/css/*.css'
                 //'public/css/*.css'
                 ],
-                dest: '<%= cmd.all.dest %>/../dist/encss/style.css'
-                //dest: '<%= cmd.all.dest %>/../dist/css/style.css'
+                dest: '<%= cmd.all.dest %>/dist/css/style.css'
             },
             index: {
                 type: 'index',
-                src: ['public/tpl/index-release.html'],
+                src: ['src/index.html'],
                 dest: '<%= cmd.all.dest %>/../dist/index.html'
             },
             app: {
@@ -98,28 +96,78 @@ module.exports = function (grunt) {
                 },
                 src: ['<%= meta.banner %>', '<%= cmd.all.dest %>/seajs/sea.js', '<%= cmd.all.dest %>/seajs/plugin-*.js', '<%= cmd.all.dest %>/lib/*.js', '<%= cmd.all.dest %>/tpl/*.js', '<%= cmd.all.dest %>/core/*.js', '<%= cmd.all.dest %>/**/*.js'],
                 ignore: ['<%= cmd.all.dest %>/seajs/*.js', '<%= cmd.all.dest %>/lib/*.js'],
-                dest: '<%= cmd.all.dest %>/../dist/js/app.js'
+                dest: '<%= cmd.all.dest %>/dist/js/app.js'
             }
         },
-        server: {
-            publicDir: 'public',
-            staticMapping: {
-                '/public': 'public'
-            },
-            // testPath: '/test',
-            port: 5000,
-            debug: true
-        }
+        // server: {
+        //     publicDir: 'public',
+        //     staticMapping: {
+        //         '/public': 'public'
+        //     },
+        //     // testPath: '/test',
+        //     port: 5000,
+        //     debug: true
+        // }
     });
+    // grunt.loadTasks('tasks');
+    var path = require('path'),
+        keys = Object.keys;
+    // preprocess template in options
+    // default template delimiters are <% %>
 
-    grunt.loadTasks('tasks');
+    function processOptions(opt) {
+        keys(opt).forEach(function (key) {
+            var value = opt[key];
+            if (typeof value === 'string') {
+                opt[key] = grunt.template.process(value);
+            } else if (Array.isArray(value)) {
+                opt[key] = value.slice().map(function (i) {
+                    return grunt.template.process(i);
+                });
+            }
+        });
+    }
+
+    function process(options, callback) {
+        processOptions(options);
+        var config = options.config,
+            base = config.base,
+            src = grunt.file.expand(options.src),
+            dest = options.dest;
+        src.forEach(function (file) {
+            var code = grunt.file.read(file),
+                output;
+            code = text2cmd(code);
+            output = base ? path.resolve(dest, path.relative(base, file)) : path.join(dest, path.basename(file));
+            output = output.replace(/\.[^.]+$/, '.js');
+            grunt.file.write(output, code);
+        });
+        callback && callback();
+    }
+
+    function text2cmd(text) {
+        return 'define(function (require, exports, module) {\n' + '    module.exports=' + JSON.stringify(text) + ';\n' + '});';
+    }
+
+    grunt.task.registerMultiTask('tpl', 'Convert tpl files to cmd modules.', function () {
+        if (this.target === 'config') {
+            return;
+        }
+        var done = this.async(),
+            config = grunt.config('tpl').options,
+            options = Object.create(this.data, {
+                config: {
+                    value: config || {}
+                }
+            });
+        process(options, done);
+    });
     grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-contrib-qunit');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-copy');
-
     // public tasks
-    grunt.registerTask('test', ['jshint', 'server:noasync', 'qunit']);
-    grunt.registerTask('build', ['jshint', 'tpl', 'cmd', 'copy', 'pack']);
-    grunt.registerTask('default', ['server']);
+    //grunt.registerTask('test', ['jshint', 'server:noasync', 'qunit']);
+    //grunt.registerTask('build', ['jshint', 'tpl', 'cmd', 'copy', 'pack']);
+    grunt.registerTask('default', ['tpl']);
 };

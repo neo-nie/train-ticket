@@ -1,0 +1,1019 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fo",
+				"follow_symlinks"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 5613,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 298,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/view/book.html",
+			"settings":
+			{
+				"buffer_size": 154,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/view/search.html",
+			"settings":
+			{
+				"buffer_size": 1639,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Remote:   origin @ git@github.com:soloi/train-ticket.git\nLocal:    develop E:\\NieHL\\Documents\\GitHub\\train-ticket\nHead:     aea3a4c [UPD] 整理目录结构\n\n\nNothing to commit (working directory clean)\n\n# Movement:\n#    r = refresh status\n#    1-5 = jump to section\n#    n = next item, N = next section\n#    p = previous item, P = previous section\n#\n# Staging:\n#    s = stage file/section, S = stage all unstaged files\n#    ctrl+shift+s = stage all unstaged and untracked files\n#    u = unstage file/section, U = unstage all files\n#    backspace = discard file/section, shift+backspace = discard everything\n#\n# Commit:\n#    c = commit, C = commit -a (add unstaged)\n#    ctrl+shift+c = commit --amend (amend previous commit)\n#\n# Other:\n#    i = ignore file, I = ignore pattern\n#    enter = open file\n#    d = view diff\n#\n# Stashes:\n#    a = apply stash, A = pop stash\n#    z = create stash from worktree",
+			"settings":
+			{
+				"buffer_size": 891,
+				"line_ending": "Windows",
+				"name": "*git-status*: train-ticket",
+				"read_only": true,
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 85.0,
+		"selected_items":
+		[
+			[
+				"git push",
+				"Git: Push Current Branch"
+			],
+			[
+				"git statu",
+				"Git: Status"
+			],
+			[
+				"git pull",
+				"Git: Pull"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"set",
+				"Set Syntax: HTML"
+			],
+			[
+				"gssu",
+				"Git: Status"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"less",
+				"Less Tabs: Close Old Tabs"
+			],
+			[
+				"git diff",
+				"Git: Diff"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"lin",
+				"SublimeLint: Show All Errors"
+			],
+			[
+				"lint",
+				"SublimeLint: Next Error"
+			],
+			[
+				"forma",
+				"Format Code"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"git log",
+				"Git: Log"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"instll",
+				"Package Control: Install Package"
+			],
+			[
+				"insall",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"dis",
+				"Package Control: Discover Packages"
+			],
+			[
+				"pack",
+				"Package Control: Disable Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"file n",
+				"File Navigator: Open"
+			],
+			[
+				"markdow",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			]
+		],
+		"width": 450.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/NieHL/Documents/GitHub/train-ticket/js/index.js",
+		"/E/NieHL/Documents/GitHub/train-ticket/src/js/page/search.js",
+		"/E/NieHL/Documents/GitHub/train-ticket/src/js/page/book.js",
+		"/E/NieHL/Documents/GitHub/train-ticket/src/js/core/router.js",
+		"/E/NieHL/Documents/GitHub/train-ticket/src/js/view/search.js",
+		"/E/NieHL/Documents/GitHub/train-ticket/src/index.html",
+		"/E/NieHL/Documents/GitHub/train-ticket/src/view/help.html",
+		"/E/NieHL/Documents/GitHub/train-ticket/src/view/grab.html",
+		"/E/NieHL/Documents/GitHub/train-ticket/src/view/favorite.html",
+		"/E/NieHL/Documents/GitHub/train-ticket/src/view/book.html",
+		"/E/NieHL/Documents/GitHub/train-ticket/package.json",
+		"/E/NieHL/Documents/GitHub/train-ticket/view/book.html",
+		"/E/NieHL/Documents/GitHub/train-ticket/view/favorite.html",
+		"/E/NieHL/Documents/GitHub/train-ticket/view/grab.html",
+		"/E/NieHL/Documents/GitHub/train-ticket/view/help.html",
+		"/E/NieHL/Documents/GitHub/train-ticket/view/login.html",
+		"/E/NieHL/Documents/GitHub/train-ticket/view/order.html",
+		"/E/NieHL/Documents/GitHub/train-ticket/view/passenger.html",
+		"/E/NieHL/Documents/GitHub/train-ticket/view/register.html",
+		"/E/NieHL/Documents/GitHub/train-ticket/view/search.html",
+		"/E/NieHL/Documents/GitHub/train-ticket/view/suggestion.html",
+		"/E/NieHL/Documents/GitHub/train-ticket/view/tickets.html",
+		"/E/NieHL/Documents/GitHub/train-ticket/view/user.html",
+		"/E/NieHL/Documents/[Workspace]/[UC]/guoji_love_girl/src/public/tpl/index-release.html",
+		"/E/NieHL/Documents/[Workspace]/[UC]/guoji_love_girl/src/public/dist/index.html",
+		"/E/NieHL/Documents/[Workspace]/[UC]/guoji_love_girl/src/public/js/parts/beauties.js",
+		"/E/NieHL/Documents/[Workspace]/[UC]/guoji_love_girl/src/public/tpl/index-dev.html",
+		"/E/NieHL/Documents/[Workspace]/[UC]/guoji_love_girl/meinv_search.log.2013110517",
+		"/E/NieHL/Documents/[Workspace]/[UC]/guoji_love_girl/src/public/tpl/index.html",
+		"/E/NieHL/Documents/[Workspace]/[UC]/guoji_love_girl/src/app.js",
+		"/E/NieHL/Documents/[Workspace]/[UC]/guoji_love_girl/src/public/js/controller.js",
+		"/E/NieHL/Documents/[Workspace]/[UC]/guoji_love_girl/src/public/js/parts/magicPic.js",
+		"/E/NieHL/Documents/[Workspace]/[UC]/guoji_love_girl/src/public/js/model.js",
+		"/E/NieHL/Documents/[Workspace]/[UC]/guoji_love_girl/src/public/js/view.js",
+		"/E/NieHL/Documents/[Workspace]/[UC]/guoji_love_girl/src/public/encss/en_main.css",
+		"/E/NieHL/Documents/[Workspace]/[UC]/guoji_love_girl/1105线上最新数据/index.html",
+		"/E/NieHL/Documents/[Workspace]/[UC]/guoji_love_girl/src/public/js/core/router.js",
+		"/E/NieHL/Documents/[Workspace]/[UC]/guoji_love_girl/src/public/js/parts/detail.js",
+		"/E/NieHL/Documents/[Workspace]/[UC]/guoji_love_girl/dist/dist-vn (线上)/index.html",
+		"/E/NieHL/Documents/[Workspace]/[UC]/imeinv/v4-rebuild/src/public/tpl/index.release.html",
+		"/E/NieHL/Documents/[Workspace]/[UC]/imeinv/v4-rebuild/src/public/tpl/index-dev.html",
+		"/E/NieHL/Documents/[Workspace]/[UC]/guoji_love_girl/src/server.js",
+		"/E/NieHL/Documents/[Workspace]/[UC]/guoji_love_girl/src/public/tpl/detail.tpl",
+		"/E/NieHL/Documents/[Workspace]/[UC]/guoji_love_girl/src/lib/log.js",
+		"/E/NieHL/Documents/[Workspace]/[UC]/guoji_love_girl/guoji_love_girl.sublime-project",
+		"/E/NieHL/Documents/[Workspace]/[UC]/guoji_love_girl/src/public/js/parts/gallery.js",
+		"/E/NieHL/Desktop/桌面/dist1025-test/index-right.html",
+		"/E/NieHL/Documents/我的微盘/5-产品管理/UC优视/temp/index-right.html",
+		"/E/NieHL/Documents/[Workspace]/[UC]/guoji_love_girl/src/Gruntfile.js",
+		"/E/NieHL/Documents/[Workspace]/[UC]/guoji_love_girl/src/public/tpl/beautiesSrh.tpl",
+		"/E/NieHL/Documents/[Workspace]/[UC]/guoji_love_girl/src/public/tpl/tagSrh.tpl",
+		"/E/NieHL/Documents/[Workspace]/[UC]/guoji_love_girl/src/public/js/parts/tags.js",
+		"/E/NieHL/Documents/我的微盘/5-产品管理/UC优视/产品/爱美女国际版/motu.json",
+		"/D/Program Files/SublimeText3/Data/Packages/SideBarEnhancements/Default (Windows).sublime-keymap",
+		"/D/MyWebSite/test/hashTest.html",
+		"/D/MyWebSite/test/redirect.html",
+		"/E/NieHL/Documents/[Workspace]/[UC]/guoji_love_girl/src/public/js/spinner.js",
+		"/E/NieHL/Documents/[Workspace]/[UC]/guoji_love_girl/src/public/js/spin.js",
+		"/E/NieHL/Documents/[Workspace]/[UC]/guoji_love_girl/src/public/js/observer.js",
+		"/E/NieHL/Documents/[Workspace]/[UC]/guoji_love_girl/src/public/js/uiproxy.js",
+		"/E/NieHL/Documents/[Workspace]/[UC]/guoji_love_girl/src/public/tpl/firstEnter.tpl",
+		"/E/NieHL/Documents/[Workspace]/[UC]/guoji_love_girl/src/public/tpl/magic_pic_enter.tpl",
+		"/E/NieHL/Documents/[Workspace]/[UC]/guoji_love_girl/src/public/js/config.js",
+		"/E/NieHL/Documents/[Workspace]/[UC]/guoji_love_girl/src/public/js/acting.js",
+		"/E/NieHL/Documents/[Workspace]/[UC]/guoji_love_girl/src/public/js/app.js",
+		"/E/NieHL/Documents/[Workspace]/[UC]/imeinv/v4-rebuild/src/Gruntfile.js",
+		"/E/NieHL/Documents/[Workspace]/[UC]/guoji_love_girl/src/public/js/promise.js",
+		"/D/Program Files/SublimeText3/Data/Packages/SublimeGit/SublimeGit.sublime-settings",
+		"/D/Program Files/SublimeText3/Data/Packages/User/CodeFormatter.sublime-settings",
+		"/D/Program Files/SublimeText3/Data/Packages/CodeFormatter/CodeFormatter.sublime-settings",
+		"/E/NieHL/Documents/[Workspace]/[UC]/guoji_love_girl/src/public/encss/test.css",
+		"/E/NieHL/Documents/[Workspace]/[UC]/guoji_love_girl/src/test/addToHome.html",
+		"/D/MyWebSite/test/addToHome.html",
+		"/E/NieHL/Documents/[Workspace]/[UC]/guoji_love_girl/src/public/js/btnproxy.js",
+		"/E/NieHL/Documents/[Workspace]/[UC]/guoji_love_girl/src/public/js/enpv.js",
+		"/D/Program Files/SublimeText3/Data/Packages/JSHint Gutter/.jshintrc",
+		"/E/NieHL/Documents/[Workspace]/[UC]/guoji_love_girl/src/public/js/net.js",
+		"/D/Program Files/SublimeText3/Data/Packages/User/Preferences.sublime-settings",
+		"/E/NieHL/Documents/[Workspace]/[UC]/guoji_love_girl/src/public/js/tpl/detail.js",
+		"/D/Program Files/SublimeText3/Data/Packages/User/Side Bar.sublime-settings",
+		"/E/NieHL/Documents/[Workspace]/UC/train-ticket-frontend/public/js/core/router.js",
+		"/E/NieHL/Documents/[Workspace]/UC/train-ticket-frontend/public/js/view/commonpassenger.js",
+		"/E/NieHL/Documents/[Workspace]/UC/train-ticket-frontend/public/js/view/common.js",
+		"/E/NieHL/Documents/[Workspace]/UC/train-ticket-frontend/public/js/view/book.js",
+		"/E/NieHL/Documents/[Workspace]/UC/train-ticket-frontend/public/js/view/regedit.js",
+		"/E/NieHL/Documents/[Workspace]/UC/train-ticket-frontend/public/js/view/ordercomfirm.js",
+		"/E/NieHL/Documents/[Workspace]/UC/train-ticket-frontend/public/js/view/myorder.js",
+		"/E/NieHL/Documents/[Workspace]/UC/train-ticket-frontend/public/js/view/index.js",
+		"/D/Program Files/SublimeText3/Data/Packages/Default/Preferences.sublime-settings",
+		"/E/NieHL/Documents/[Workspace]/UC/train-ticket-frontend/public/js/config.js",
+		"/E/NieHL/Documents/[Workspace]/UC/train-ticket-frontend/public/js/app.js",
+		"/E/NieHL/Documents/[Workspace]/UC/train-ticket-frontend/public/js/storage.js",
+		"/E/NieHL/Documents/[Workspace]/UC/train-ticket-frontend/public/js/message.js",
+		"/E/NieHL/Documents/[Workspace]/UC/train-ticket-frontend/public/js/core/network.js",
+		"/E/NieHL/Documents/[Workspace]/UC/train-ticket-frontend/public/js/core/uiproxy.js",
+		"/E/NieHL/Documents/[Workspace]/UC/train-ticket-frontend/public/js/core/template.js",
+		"/E/NieHL/Documents/[Workspace]/UC/train-ticket-frontend/public/js/uiproxy.js",
+		"/E/NieHL/Documents/[Workspace]/UC/train-ticket-frontend/public/tpl/header.tpl",
+		"/E/NieHL/Documents/[Workspace]/UC/train-ticket-frontend/public/tpl/myorder.tpl",
+		"/E/NieHL/Documents/[Workspace]/UC/train-ticket-frontend/public/tpl/regedit.tpl",
+		"/E/NieHL/Documents/[Workspace]/UC/train-ticket-frontend/public/tpl/traintimedetail.tpl",
+		"/E/NieHL/Documents/[Workspace]/UC/train-ticket-frontend/public/tpl/trainticketresult.tpl",
+		"/E/NieHL/Documents/[Workspace]/UC/train-ticket-frontend/public/js/model.js",
+		"/E/NieHL/Documents/[Workspace]/UC/train-ticket-frontend/public/tpl/index.release.html",
+		"/E/NieHL/Documents/[Workspace]/UC/train-ticket-frontend/public/tpl/filter.tpl",
+		"/E/NieHL/Documents/[Workspace]/UC/train-ticket-frontend/public/tpl/city.tpl",
+		"/E/NieHL/Documents/[Workspace]/UC/train-ticket-frontend/public/tpl/index.tpl",
+		"/E/NieHL/Documents/[Workspace]/UC/train-ticket-frontend/public/tpl/book.tpl",
+		"/E/NieHL/Documents/[Workspace]/UC/train-ticket-frontend/server.js",
+		"/E/NieHL/Documents/[Workspace]/UC/train-ticket-frontend/app.js",
+		"/E/NieHL/Documents/[Workspace]/UC/train-ticket-frontend/tasks/server.js",
+		"/E/NieHL/Documents/[Workspace]/UC/train-ticket-frontend/train-ticket-frontend.sublime-project",
+		"/D/Program Files/SublimeText3/Data/Packages/User/Nodejs.sublime-settings",
+		"/D/Program Files/SublimeText3/Data/Packages/Nodejs/Nodejs.sublime-settings",
+		"/D/Program Files/SublimeText3/Data/Packages/Package Control/Package Control.sublime-settings",
+		"/E/NieHL/Documents/[Workspace]/UC/train-ticket-frontend/Gruntfile.js",
+		"/E/NieHL/Documents/[Workspace]/UC/train-ticket-frontend/public/html/index.html",
+		"/E/NieHL/Documents/[Workspace]/UC/train-ticket-frontend/public/html/common-passenger.html",
+		"/E/NieHL/Documents/[Workspace]/UC/train-ticket-frontend/public/js/view/login.js",
+		"/E/NieHL/Documents/[Workspace]/UC/train-ticket-frontend/public/html/login.html",
+		"/E/NieHL/Documents/[Workspace]/UC/train-ticket-frontend/public/html/register.html",
+		"/D/Program Files/SublimeText3/Data/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/D/Program Files/SublimeText3/Data/Packages/SideBarEnhancements/CHANGELOG",
+		"/E/NieHL/Documents/[Workspace]/UC/train-ticket-frontend/public/html/book.html",
+		"/E/NieHL/Documents/[Workspace]/UC/train-ticket-frontend/public/html/ticket-detail.html",
+		"/D/Program Files/SublimeText3/Data/Packages/User/lessTabs.sublime-settings",
+		"/E/NieHL/Documents/[Workspace]/UC/train-ticket-frontend/public/html/book-unfinish.html",
+		"/E/NieHL/Documents/[Workspace]/UC/train-ticket-frontend/public/css/base.css"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 92.0,
+		"where_history":
+		[
+			"",
+			"*.css;*.js;*.tpl;*.html",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"dest",
+			"tpl",
+			"box-sizing",
+			"border",
+			"tag:type:",
+			"addToHome",
+			"magicPic-add",
+			"add to",
+			".length",
+			".length,",
+			"Math.floor",
+			"math.floor",
+			"magic",
+			"math.floor",
+			"length",
+			"notBeChangeTime",
+			"settimeout",
+			"ranImg",
+			"album",
+			"getPic",
+			"ranImg",
+			"图片",
+			"/magicPic",
+			"大咖配",
+			"files",
+			"pv:en:send",
+			"Srhlist",
+			"op",
+			"copyright-ctr",
+			"jumpurl",
+			"parseSearch",
+			"contexts",
+			"context",
+			"http://dev7.ucweb.local:4380/webpage_rolling/cont_mng/transfer/transit_local.php?interface=",
+			"sendEnPv",
+			"pv",
+			"ping",
+			"share",
+			"facebook",
+			"Context",
+			"onhashchange",
+			"from client page Log message",
+			"Script error",
+			"rsPros",
+			"myData = ",
+			"myData",
+			"myData.from",
+			"myData",
+			"from client page Log message",
+			"main-content-ctr",
+			"$infoTip",
+			"info-tip",
+			"px !important",
+			"!important",
+			"tag-srh-btn",
+			"no more than",
+			"switchBtnCtr",
+			"switch-btn",
+			"tagSrhTpl",
+			"tagSrh",
+			"srhBtn",
+			"tagSrhTpl",
+			"tagSrh",
+			"tag-srh-ctr",
+			"goSrh",
+			"search",
+			"man.png",
+			"Spinner",
+			"magicPic",
+			"tagHandler",
+			"views, bodyPosition, routerStart = false;",
+			"slide",
+			"movie",
+			"pv:",
+			"data-loading-ctr",
+			"galleryLoading",
+			"load",
+			"gall",
+			"setTimeout",
+			"net",
+			"Net",
+			"net",
+			"require('net')",
+			"beauties:change",
+			"beauties",
+			"moreBtnHandler",
+			"header",
+			"tpls",
+			"'))",
+			"bindEvent",
+			"uiEvent",
+			"ticket-search",
+			"router",
+			"hide()",
+			"$('body')",
+			"route",
+			"menu",
+			"hashchange",
+			"^(.*)$",
+			"my-order",
+			"common-passenger",
+			"personalPlane",
+			"login",
+			"select-city-btn",
+			"stop",
+			"compiled",
+			"tpls",
+			"selectCity",
+			"require('model')",
+			"UIProxy",
+			"订票",
+			"controller"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Superstar Love Match",
+			"http://dev7.ucweb.local:8087/cont_mng/transfer/transit_local.php?interface=",
+			"px",
+			"model"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Gruntfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5613,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1601,
+								1605
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 495.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 298,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								298,
+								298
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close"
+							],
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/view/book.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 154,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/view/search.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1639,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								851,
+								851
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 891,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								147,
+								147
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close"
+							],
+							"draw_white_space": "none",
+							"git_repo": "E:\\NieHL\\Documents\\GitHub\\train-ticket",
+							"git_status": true,
+							"git_view": "status",
+							"syntax": "Packages/SublimeGit/syntax/SublimeGit Status.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.exec":
+	{
+		"height": 102.0
+	},
+	"output.git-commit":
+	{
+		"height": 102.0
+	},
+	"output.git-pull":
+	{
+		"height": 102.0
+	},
+	"output.git-push":
+	{
+		"height": 102.0
+	},
+	"project": "train-ticket.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"magi",
+				"guoji_love_girl\\js\\parts\\magicPic.js"
+			],
+			[
+				"ma",
+				"guoji_love_girl\\js\\parts\\magicPic.js"
+			],
+			[
+				"index",
+				"guoji_love_girl\\tpl\\index-release.html"
+			],
+			[
+				"mode",
+				"guoji_love_girl\\js\\model.js"
+			],
+			[
+				"router",
+				"guoji_love_girl\\js\\core\\router.js"
+			],
+			[
+				"spin",
+				"public\\js\\spin.js"
+			],
+			[
+				"spinner",
+				"public\\js\\spinner.js"
+			],
+			[
+				"view.j",
+				"public\\js\\view.js"
+			],
+			[
+				"tags.js",
+				"public\\js\\parts\\tags.js"
+			],
+			[
+				"con",
+				"public\\js\\controller.js"
+			],
+			[
+				"statu",
+				"*git-status*: guoji_love_girl"
+			],
+			[
+				"gall",
+				"public\\js\\parts\\gallery.js"
+			],
+			[
+				"net.js",
+				"public\\js\\net.js"
+			],
+			[
+				"tagjs",
+				"public\\js\\parts\\tags.js"
+			],
+			[
+				"messa",
+				"train-ticket-frontend\\public\\js\\message.js"
+			],
+			[
+				"pa",
+				"package.json"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+		],
+		"width": 610.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 249.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
