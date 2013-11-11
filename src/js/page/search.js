@@ -2,7 +2,7 @@ define(function (require, exports) {
     'use strict';
 
     //SearchVM
-    avalon.define('SearchVM', function (vm) {
+    exports.vm = avalon.define('SearchVM', function (vm) {
         vm.$title = '余票查询';
         vm.$back = function () {
             window.history.back();
@@ -65,7 +65,6 @@ define(function (require, exports) {
 
         init();
     });
-    avalon.scan();
 
     //加载页面
     exports.load = function () {
