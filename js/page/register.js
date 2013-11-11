@@ -15,7 +15,7 @@ avalon.define('register', function (vm) {
 	*/
 	vm.FetchCaptcha = function(){
 
-	}
+	};
 
 	/**
 	 * 检验校验码

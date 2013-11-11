@@ -2,7 +2,7 @@ define(function (require, exports) {
     'use strict';
 
     //SearchVM
-    avalon.define('search', function (vm) {
+    avalon.define('SearchVM', function (vm) {
         vm.$title = '余票查询';
         vm.$back = function () {
             window.history.back();
